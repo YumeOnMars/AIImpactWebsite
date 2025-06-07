@@ -1,24 +1,147 @@
 html {
-    display:flex;
-    justify-content: center;
-    background-color: #0E2148;
+    background-image:linear-gradient(to right, hsl(338, 98%, 23%), #17002d);
+    padding:0;
+    margin: 0;
 }
 
-#DownsidesHome {
-    color: white;
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    height
-}
-
-.Downsides {
-    background-image: url(https://ric.edu.pk/wp-content/uploads/2024/11/artificial-intelligence.jpg);
+.HeroBanner {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80vh;
+    background-image: url("images/carbonfootprintcool.jpg");
     background-size: cover;
-    height: 320px;
-    width:800px;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color:white;
+    z-index: 1;
+    font-size: 25px;
+    padding-left: 8%;
+    padding-top: 7%;
+}
+
+.HeroTitle {
+    width: 100%;
+}
+.FirstHeroLine {
+    font-size: 75px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.SecondHeroLine {
+    font-size: 75px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    padding-left: 10%;
+    margin: 1px;    
+}
+
+
+.HeroBanner::before {
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 0, 57, 0.407); 
+    z-index: -1;
+}
+
+.NavBar {
+    position: fixed;
+    top: 20px;
+    right: 40px;
+}
+
+.NavBar ul button {
+    display: inline;
+    background-color: #17005172;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 4px;
+    border: solid white 3px;
+    border-radius: 13px;
+}
+
+.NavBar ul button a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#BetweenHomeStatistic {
+    margin-top: 40px;
+
+}
+
+.StatisticBelow {
+    padding-top: 60px;
+    padding-bottom: 62px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    height: 250px;
+    color:white;
+    width: 100%;
 }
 
+.PeopleStatistic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StatisticText {
+    width: 25%;
+    height: 175px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-right: 32px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 120%;
+}
+.PeopleStatistic img{
+    height: 325px;
+    width: 500px;
+    border-radius: 50px;
+    border: white solid 6px;
+}
+
+.Buttons {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Buttons button {
+    width: 320px;
+    height: 120px;
+    margin: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, #30009f, #f10058);
+    border: white solid 6px;
+}
+
+.Buttons button a{
+    font-size: 40px;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    font-weight: 400;
+
+}
+
+button:hover {
+    scale: 1.03;
+    transition: ease 0.15s;
+}

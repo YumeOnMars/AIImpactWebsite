@@ -1,0 +1,56 @@
+html {
+    background-image:linear-gradient(to right, hsl(338, 100%, 36%), #17002d);
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.ProblemHeader {
+    margin-top : 135px;
+}
+
+.ProblemContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProblemStatisticsContainer {
+    border: white solid 4px;
+    width: 95%;
+    height: 350px;
+}
+
+.NavBar {
+    position: fixed;
+    top: 20px;
+    right: 40px;
+}
+
+.NavBar ul button {
+    display: inline;
+    background-color: #17005172;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;    
+    margin: 4px;
+    border: solid white 3px;
+    border-radius: 13px;
+}
+
+.NavBar ul button a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+button:hover {
+    scale: 1.03;
+    transition: ease 0.15s;
+}
