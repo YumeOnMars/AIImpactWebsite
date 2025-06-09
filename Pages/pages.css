@@ -2,6 +2,12 @@ html {
     background-image:linear-gradient(to right, hsl(338, 100%, 36%), #17002d);
 }
 
+hr {
+    color:white;
+    width: 87%;;
+}
+
+
 h1 {
     text-align: center;
     color:white;
@@ -11,22 +17,115 @@ h1 {
 
 .ProblemHeader {
     margin-top : 135px;
+    margin-bottom: 60px;
 }
 
 .ProblemContainer {
     display:flex;
     justify-content: center;
     align-items: center;
+    height: 450px;
 }
 
-.ProblemStatisticsContainer {
-    border: white solid 4px;
-    width: 95%;
-    height: 350px;
+.Problem1Container {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.Problem1Container img {
+    height:75%;
+    width:35%;
+    margin-left: 10%;
+    border-radius: 40px;
+}
+
+.Problem1Container p {
+    text-align: left;
+    font-size: 35px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 140px;
+}
+
+.EqualToContainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.EqualToContentContainer {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EqualToContentContainer img{
+    border-radius: 55px;
+}
+
+.EqualToContentLeft {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+
+.EqualToContentLeft p {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
+    width: 60%;
+    text-align: center;
+}
+
+.EqualToContentContainer hr {
+    transform: rotate(90deg);
+    width: 15%;
+}
+
+.EqualToContentRight {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+}
+.EqualToContentRight p {
+    padding-top: 25px;
+    font-size: 30px;
+    width: 85%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+}
+
+.EqualToTitle {
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
 
 .NavBar {
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 40px;
 }
@@ -53,4 +152,60 @@ h1 {
 button:hover {
     scale: 1.03;
     transition: ease 0.15s;
+}
+
+.SourcesContentContainer a {
+    color: aqua;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.SourcesContentContainer {
+    border: solid white 3px;
+    width: 95%;
+    height: 400px;
+    padding-left: 60px;
+    padding-top: 30px;   
+}
+
+.SourcesContainer {
+    display:flex;
+    justify-content: center;
+}
+
+.WaterContainer {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.WaterContentContainer {
+    padding-top: 3%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.WaterContentContainer p {
+    padding-top: 25px;
+    padding-right: 3%;
+    font-size: 30px;
+    width: 85%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: left;
+    text-indent: 12%;
+}
+
+.WaterContentContainer img {
+    border-radius: 50px;
+}
+
+.ProblemBottomSpacer {
+    height: 200px;
 }
