@@ -1,27 +1,28 @@
 html {
-    background-image:linear-gradient(to right, hsl(338, 100%, 36%), #17002d);
+    background-image: linear-gradient(to right, hsl(338, 100%, 36%), #17002d);
 }
 
 hr {
-    color:white;
-    width: 87%;;
+    color: white;
+    width: 87%;
+    ;
 }
 
 
 h1 {
     text-align: center;
-    color:white;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 70px;
 }
 
 .ProblemHeader {
-    margin-top : 135px;
+    margin-top: 135px;
     margin-bottom: 60px;
 }
 
 .ProblemContainer {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 450px;
@@ -36,8 +37,8 @@ h1 {
 }
 
 .Problem1Container img {
-    height:75%;
-    width:35%;
+    height: 75%;
+    width: 35%;
     margin-left: 10%;
     border-radius: 40px;
 }
@@ -67,7 +68,7 @@ h1 {
     align-items: center;
 }
 
-.EqualToContentContainer img{
+.EqualToContentContainer img {
     border-radius: 55px;
 }
 
@@ -84,8 +85,7 @@ h1 {
 .EqualToContentLeft p {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color:white;
+    color: white;
     width: 60%;
     text-align: center;
 }
@@ -104,19 +104,19 @@ h1 {
     justify-content: center;
     margin-left: 0px;
 }
+
 .EqualToContentRight p {
     padding-top: 25px;
     font-size: 30px;
     width: 85%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color:white;
+    color: white;
     text-align: center;
 }
 
 .EqualToTitle {
     text-align: center;
-    color:white;
+    color: white;
     font-size: 30px;
     font-weight: bold;
 }
@@ -136,7 +136,7 @@ h1 {
     text-decoration: none;
     padding: 10px;
     padding-left: 35px;
-    padding-right: 35px;    
+    padding-right: 35px;
     margin: 4px;
     border: solid white 3px;
     border-radius: 13px;
@@ -146,7 +146,7 @@ h1 {
     text-decoration: none;
     color: white;
     font-size: 23px;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 button:hover {
@@ -155,7 +155,6 @@ button:hover {
 }
 
 .SourcesContentContainer a {
-    color: aqua;
     text-decoration: underline;
     font-weight: bold;
     font-size: 20px;
@@ -168,17 +167,17 @@ button:hover {
     width: 95%;
     height: 400px;
     padding-left: 60px;
-    padding-top: 30px;   
+    padding-top: 30px;
 }
 
 .SourcesContainer {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
 .WaterContainer {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
@@ -186,18 +185,19 @@ button:hover {
 
 .WaterContentContainer {
     padding-top: 3%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
+
 .WaterContentContainer p {
     padding-top: 25px;
     padding-right: 3%;
     font-size: 30px;
     width: 85%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:white;
+    color: white;
     text-align: left;
     text-indent: 12%;
 }
@@ -208,4 +208,108 @@ button:hover {
 
 .ProblemBottomSpacer {
     height: 200px;
+}
+
+.SolutionsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    border: solid white;
+}
+
+.SignUpContainer {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+
+.SignUpNames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.SignUpNames input {
+    padding-left: 15px;
+    border-radius: 10px;
+    height: 35px;
+    width: 50%;
+    border: black solid 3px;
+}
+
+#fname {
+    margin-right: 10px;
+}
+
+.SignUpNames input placeholder {
+    text-align: center;
+}
+
+.Email {
+    display: flex;
+    justify-content: center;
+}
+
+.Email input {
+    border-radius: 10px;
+    height: 35px;
+    width: 65%;
+    border: black solid 3px;
+    padding-left: 15px;
+}
+
+#SubmitButton {
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: solid white 3px;
+    background-color: #17002d00;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+}
+
+.SignUpContainer button a {
+    color: white;
+    text-decoration: none;
+    ;
+}
+
+.SignUpContainer form h4 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.SignUpForm {
+    text-align: center;
+    border: white solid 3px;
+    border-radius: 25px;
+    width: 50%;
+    height: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.SourcesList li {
+    margin-bottom: 25px;
+
+}
+
+.SourcesList li {
+    color: white;
+    font-size: 25px;
+}
+
+.SourcesList li span {
+    color: aqua;
+    text-decoration: underline;
+    text-decoration-color: aqua;
 }
